@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Teacher Dashboard Portal</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="part1">
+                <h2>Teacher Portal</h2>
+            </div>
+            <div class="part2">
+                <a href="index.html">
+                    <h2>Signup</h2>
+                </a>
+                <a href="login.html">
+                    <h2>Login</h2>
+                </a>
+            </div>
+        </div>
+
+        <div class="contain">
+            <h2>Teachers Dashboard</h2>
+            <br />
+            <h4>Welcome back <span id="dashboardName"></span></h4>
+            <br />
+            <h4>Your Email ID : <span id="dashboardEmail"></span></h4>
+            <br />
+            <h2>Change Password</h2>
+            <br />
+            <p id="error"></p>
+            <br />
+            <form action="" id="form">
+                <input type="text" name="" id="oldPassword" placeholder="Old Password" />
+                <input type="text" name="" id="newPassword" placeholder="New Password" />
+                <input type="text" name="" id="conNewPassword" placeholder="Confirm New Password" />
+                <button type="submit" id="change">Change</button>
+                <button type="button" id="logout">Logout</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

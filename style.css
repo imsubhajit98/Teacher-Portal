@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.part2{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly; 
+}
+
+.part2 a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.contain form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+}
+.contain form input{
+    height: 30px;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+}
+.contain form button{
+    height: 40px;
+    width: 150px;
+    
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#error{
+    color: red;
+}
